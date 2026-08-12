@@ -16,6 +16,14 @@
 
 Detaylı adımlar için: [HIZLI-BASLANGIC.md](HIZLI-BASLANGIC.md)
 
+## Güvenlik nasıl görünüyor?
+
+Komutlar bir şeye dokunmadan önce kapsamını sana sorar — ekran gerçek kullanımdan:
+
+![Kaçan müşteri komutunun kapsam onayı ekranı](docs/kacan-musteri-onay.png)
+
+*"Salt-okunur taranır; hiçbir mesaj gönderilmez/taslak kaydedilmez" — imza her zaman sende.*
+
 ## İçinde ne var?
 
 ### 💼 İşletme Komutları (5) — paketimizin kalbi
