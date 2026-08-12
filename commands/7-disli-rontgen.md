@@ -15,6 +15,14 @@ Her şirket bir çarktır ve çarkın 7 dişlisi vardır: pazarlama, satış, op
 3. **Röntgen raporu (tek sayfa):** Dişli tablosu (puan + gerekçe) → **En kritik dişli** (tek seçim — ANCAK yeterli veri varsa; iki+ dişlide "veri yok" işaretlediysen kritik seçme, önce "şu 3 veriyi topla" görevi ver) ve neden ("çünkü şu kadar müşteri/para/zaman burada kaçıyor") → Bu dişlideki kaçağın tahmini maliyeti (kullanıcının verdiği rakamlarla; rakam yoksa formülü göster, sonucu kullanıcıya bıraktır) → İlk müdahale önerisi: TEK iş (bir sonraki adım olarak `/kacan-musteri` veya `/sabah-brifingi` gibi somut bir kurulum öner).
 4. **Kaydet:** `7-disli-rontgen-YYYY-AA-GG.md`.
 
+
+### ÇIKTI DİLİ KURALI (ZORUNLU — 3 Soru Kuralı)
+Raporun/çıktının EN BAŞINA, tüm detaylardan önce, şu üç soruyu GÜNLÜK DİLLE cevaplayan bir blok koy (her cevap 1-2 cümle, jargon sıfır — karşındaki teknik olmayan bir işletme sahibi):
+- **Ne buldum?** — tek bakışta sonuç.
+- **Bu ne demek?** — iyi mi, kötü mü, neden umursamalı; belirsizse en olası açıklamayı söyle.
+- **Şimdi ne yapmalısın?** — en fazla 3 net adım; yapılacak bir şey yoksa AÇIKÇA "yapman gereken bir şey yok" de.
+Tablolar, sınıflandırmalar, kontrol listeleri bu bloğun ALTINA gelir — onlar isteyene detaydır. Kullanıcı yalnızca ilk üç satırı okusa bile ne olduğunu tam anlamalıdır.
+
 ### Kurallar
 - Teşhis komutu bu — tedaviye başlama; otomasyon kurmayı önerirsin, kurmazsın.
 - "Her dişlin kötü" deme; en fazla 1 kritik + 1 izlenecek dişli işaretle (odak ilkesi).

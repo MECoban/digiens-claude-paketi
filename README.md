@@ -16,6 +16,10 @@
 
 Detaylı adımlar için: [HIZLI-BASLANGIC.md](HIZLI-BASLANGIC.md)
 
+## Her rapor üç soruyla başlar
+
+Paketin çıktı standardı: hangi komutu çalıştırırsan çalıştır, raporun ilk satırları günlük dille üç soruyu cevaplar — **Ne buldum? · Bu ne demek? · Şimdi ne yapmalısın?** Detay tabloları sonra gelir; ilk üç satırı okuyan herkes ne olduğunu anlar.
+
 ## Güvenlik nasıl görünüyor?
 
 Komutlar bir şeye dokunmadan önce kapsamını sana sorar — ekran gerçek kullanımdan:

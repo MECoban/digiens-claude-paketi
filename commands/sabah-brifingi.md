@@ -15,6 +15,14 @@ Bugün için sabah brifingi hazırla. Ek istek: $ARGUMENTS
 3. **🎯 Günün 3 önceliği:** Takvim + bekleyenler + çalışma klasöründeki açık işlerden çıkar; her önceliği tek cümle gerekçeyle yaz ("çünkü...").
 4. **⚠️ Gözden kaçanlar:** Yaklaşan son tarih, uzun süredir dokunulmamış iş, bugün cevap verilmezse sorun çıkaracak konu — varsa, yoksa bu bölümü atla.
 
+
+### ÇIKTI DİLİ KURALI (ZORUNLU — 3 Soru Kuralı)
+Raporun/çıktının EN BAŞINA, tüm detaylardan önce, şu üç soruyu GÜNLÜK DİLLE cevaplayan bir blok koy (her cevap 1-2 cümle, jargon sıfır — karşındaki teknik olmayan bir işletme sahibi):
+- **Ne buldum?** — tek bakışta sonuç.
+- **Bu ne demek?** — iyi mi, kötü mü, neden umursamalı; belirsizse en olası açıklamayı söyle.
+- **Şimdi ne yapmalısın?** — en fazla 3 net adım; yapılacak bir şey yoksa AÇIKÇA "yapman gereken bir şey yok" de.
+Tablolar, sınıflandırmalar, kontrol listeleri bu bloğun ALTINA gelir — onlar isteyene detaydır. Kullanıcı yalnızca ilk üç satırı okusa bile ne olduğunu tam anlamalıdır.
+
 ### Kurallar
 - **İlk çalıştırmada kaynak onayı al:** "Şu kaynakları okuyacağım: [takvim/e-posta/klasördeki dosyalar] — onaylıyor musun?" Onaysız okuma yapma; sonraki çalıştırmalarda aynı kapsamı kullan.
 - Kaynaklar: onaylanan takvim + e-posta; bağlantı yoksa çalışma klasöründeki plan/görev dosyaları. Hiçbiri yoksa neye erişemediğini söyle ve elindekiyle daralt.

@@ -19,6 +19,14 @@ Bu oturumdaki öğrenmeleri kalıcılaştır. Odak: $ARGUMENTS (boşsa tüm otur
 4. **İşle:** Onaylananları uygula: CLAUDE.md'ye ilgili bölümün altına tarihli tek satır olarak ekle (mevcut yapıyı bozma, mükerrer varsa güncelle); çalışma-tarzı derslerini hafızaya kaydet.
 5. **Raporla:** "El kitabına N madde, hafızaya M madde işlendi. Çalışanın bugün şunları öğrendi: ..." — tek paragraf.
 
+
+### ÇIKTI DİLİ KURALI (ZORUNLU — 3 Soru Kuralı)
+Raporun/çıktının EN BAŞINA, tüm detaylardan önce, şu üç soruyu GÜNLÜK DİLLE cevaplayan bir blok koy (her cevap 1-2 cümle, jargon sıfır — karşındaki teknik olmayan bir işletme sahibi):
+- **Ne buldum?** — tek bakışta sonuç.
+- **Bu ne demek?** — iyi mi, kötü mü, neden umursamalı; belirsizse en olası açıklamayı söyle.
+- **Şimdi ne yapmalısın?** — en fazla 3 net adım; yapılacak bir şey yoksa AÇIKÇA "yapman gereken bir şey yok" de.
+Tablolar, sınıflandırmalar, kontrol listeleri bu bloğun ALTINA gelir — onlar isteyene detaydır. Kullanıcı yalnızca ilk üç satırı okusa bile ne olduğunu tam anlamalıdır.
+
 ### Kurallar
 - Mevcut CLAUDE.md içeriğini asla silme/yeniden yazma — yalnızca ekle veya işaretli güncelle.
 - Çelişki bulursan (yeni ders eski kuralla çakışıyor) ikisini de göster, kullanıcıya seçtir.

@@ -17,6 +17,14 @@ Kaçan müşteri raporu hazırla. Kapsam: $ARGUMENTS (boşsa: son 7 gün).
 4. **Takip taslakları yaz:** Her cevapsız müşteri için kibar, kısa (≤80 kelime), işletmenin CLAUDE.md'deki tonuna uygun bir takip taslağı hazırla. Taslakların başına büyük harfle `[TASLAK — GÖNDERİLMEDİ]` yaz.
 5. **Kontrol listesi ekle (raporun sonuna):** kullanıcının doğrulaması gerekenler — isim-mesaj eşleşmeleri doğru mu · "cevapsız" dediklerin gerçekten cevapsız mı · tarihler doğru mu.
 
+
+### ÇIKTI DİLİ KURALI (ZORUNLU — 3 Soru Kuralı)
+Raporun/çıktının EN BAŞINA, tüm detaylardan önce, şu üç soruyu GÜNLÜK DİLLE cevaplayan bir blok koy (her cevap 1-2 cümle, jargon sıfır — karşındaki teknik olmayan bir işletme sahibi):
+- **Ne buldum?** — tek bakışta sonuç.
+- **Bu ne demek?** — iyi mi, kötü mü, neden umursamalı; belirsizse en olası açıklamayı söyle.
+- **Şimdi ne yapmalısın?** — en fazla 3 net adım; yapılacak bir şey yoksa AÇIKÇA "yapman gereken bir şey yok" de.
+Tablolar, sınıflandırmalar, kontrol listeleri bu bloğun ALTINA gelir — onlar isteyene detaydır. Kullanıcı yalnızca ilk üç satırı okusa bile ne olduğunu tam anlamalıdır.
+
 ### Kurallar
 - ASLA e-posta gönderme, yanıtlama veya taslak klasörüne kaydetme — yalnızca raporda göster.
 - Emin olmadığın kayıtları ayrı bir "Emin değilim, kontrol et" bölümüne koy; uydurma.
