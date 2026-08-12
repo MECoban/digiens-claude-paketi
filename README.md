@@ -8,9 +8,11 @@
 # 1. Marketi ekle
 /plugin marketplace add MECoban/digiens-claude-paketi
 
-# 2. Paketi kur
+# 2. Paketi kur — sorulduğunda "Install for you (user scope)" seç
 /plugin install digiens-claude-paketi
 ```
+
+> **Komutları çağırma:** Komutlar `/digiens-claude-paketi:komut-adi` olarak kaydolur. Ezberlemene gerek yok — `/` yazıp komut adının başını yaz (ör. `/kacan`), menüden seç. Kurulumdan sonra komutları görmüyorsan oturumu yeniden başlat.
 
 Detaylı adımlar için: [HIZLI-BASLANGIC.md](HIZLI-BASLANGIC.md)
 
