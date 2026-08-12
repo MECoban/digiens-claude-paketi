@@ -10,11 +10,17 @@
       "name": "digiens-claude-paketi",
       "source": "./",
       "description": "5 işletme komutu (kaçan müşteri, sabah brifingi, teklif, 7 dişli röntgeni, hafızaya işle) + 14 geliştirme komutu + 12 uzman ajan — Türkçe",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Digiens AI"
       },
-      "tags": ["turkce", "isletme", "girisimci", "verimlilik", "otomasyon"]
+      "tags": [
+        "turkce",
+        "isletme",
+        "girisimci",
+        "verimlilik",
+        "otomasyon"
+      ]
     }
   ]
 }

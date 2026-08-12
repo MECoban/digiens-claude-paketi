@@ -22,3 +22,6 @@ Kaçan müşteri raporu hazırla. Kapsam: $ARGUMENTS (boşsa: son 7 gün).
 - Emin olmadığın kayıtları ayrı bir "Emin değilim, kontrol et" bölümüne koy; uydurma.
 - Kişisel veriyi rapor dışına taşıma; rapor yalnızca çalışma klasörüne yazılır (`kacan-musteri-raporu-YYYY-AA-GG.md`). Maskeleme seçildiyse raporda ad + baş harf kullan, e-posta/telefonu yazma.
 - Rapor sonunda tek satır özet ver: "X müşteri bekliyor, en eskisi Y gündür."
+- **Raporun başına taranan hesabı/kaynağı açıkça yaz** — kullanıcı yanlış hesabın tarandığını hemen fark edebilsin.
+- **Boş sonuç kuralı:** Cevapsız müşteri çıkmazsa müşteri uydurma; "0 müşteri bekliyor" de ve şunu sor: "Taranan hesap gerçek müşteri kanalın mı? Müşterilerin başka yerden yazıyorsa (iş adresi, WhatsApp, LinkedIn) o kanalın dışa aktarımını klasöre koy, dosya kaynağıyla tekrar çalıştıralım."
+- Müşteri olmayan ama ZAMANA BAĞLI önemli bir şey görürsen (hesap kapanışı, ödeme uyarısı, süre dolan abonelik) raporda ayrı tek maddelik "Müşteri değil ama bilmen gereken" notu düş.
