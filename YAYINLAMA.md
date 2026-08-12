@@ -90,7 +90,7 @@ README dosyanda kurulum komutu hazır durursa kullanıcılar kopyala-yapıştır
   "source": "MECoban/digiens-claude-paketi",
   "description": "Modern web geliştirme için Türkçe slash komutları ve uzman AI agent'ları içeren Claude Code paketi",
   "version": "1.0.0",
-  "author": "SAHIBI",
+  "author": "Digiens AI",
   "tags": ["productivity", "nextjs", "supabase", "typescript", "react", "development", "turkish"]
 }
 ```
