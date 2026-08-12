@@ -2,7 +2,7 @@
 
 Bu rehber, paketi GitHub'a çıkarıp başkalarının tek komutla kurabileceği hâle getirmenin tüm adımlarını anlatır.
 
-> Not: Aşağıdaki `SAHIBI/REPO-ADI` ifadesi bir yer tutucudur — yayına çıkarken kendi GitHub kullanıcı adın ve repo adınla değiştir.
+> Not: Aşağıdaki `MECoban/digiens-claude-paketi` ifadesi bir yer tutucudur — yayına çıkarken kendi GitHub kullanıcı adın ve repo adınla değiştir.
 
 ## Ön Koşullar
 
@@ -31,7 +31,7 @@ GitHub reposu oluştuktan sonra:
 cd ~/Projects/REPO-ADI
 
 # GitHub remote'unu ekle
-git remote add origin https://github.com/SAHIBI/REPO-ADI.git
+git remote add origin https://github.com/MECoban/digiens-claude-paketi.git
 
 # Kodu gönder
 git push -u origin main
@@ -47,7 +47,7 @@ Paketin gerçekten kurulabildiğini kendin test et:
 
 ```bash
 # Kendi GitHub reposundan kur
-/plugin install SAHIBI/REPO-ADI
+/plugin install MECoban/digiens-claude-paketi
 
 # Komutların geldiğini kontrol et
 /kod-acikla
@@ -68,7 +68,7 @@ README dosyanda kurulum komutu hazır durursa kullanıcılar kopyala-yapıştır
 ### Seçenek A: Doğrudan kurulum komutunu paylaş
 
 ```bash
-/plugin install SAHIBI/REPO-ADI
+/plugin install MECoban/digiens-claude-paketi
 ```
 
 ### Seçenek B: Topluluk marketplace'lerine gönder
@@ -87,7 +87,7 @@ README dosyanda kurulum komutu hazır durursa kullanıcılar kopyala-yapıştır
 ```json
 {
   "name": "REPO-ADI",
-  "source": "SAHIBI/REPO-ADI",
+  "source": "MECoban/digiens-claude-paketi",
   "description": "Modern web geliştirme için Türkçe slash komutları ve uzman AI agent'ları içeren Claude Code paketi",
   "version": "1.0.0",
   "author": "SAHIBI",
@@ -110,7 +110,7 @@ README dosyanda kurulum komutu hazır durursa kullanıcılar kopyala-yapıştır
 Verimli web geliştirme için 14 slash komutu + 11 uzman AI agent — Türkçe.
 
 Kurulum:
-/plugin install SAHIBI/REPO-ADI
+/plugin install MECoban/digiens-claude-paketi
 
 Öne çıkanlar:
 ✅ API iskeleti (/yeni-api)
@@ -122,7 +122,7 @@ Kurulum:
 
 Next.js, React, TypeScript ve Supabase projeleri için birebir!
 
-GitHub: https://github.com/SAHIBI/REPO-ADI
+GitHub: https://github.com/MECoban/digiens-claude-paketi
 ```
 
 ## Adım 4: Paketi Canlı Tut
@@ -186,7 +186,7 @@ Kullanıcılar en yeni sürüme şöyle geçer:
 
 Önemli sürümler için release çıkar:
 
-1. Repoya git: https://github.com/SAHIBI/REPO-ADI
+1. Repoya git: https://github.com/MECoban/digiens-claude-paketi
 2. "Releases" → "Create a new release"
 3. Tag: `v1.0.0`
 4. Başlık: `v1.0.0 - İlk Sürüm`
@@ -195,7 +195,7 @@ Kullanıcılar en yeni sürüme şöyle geçer:
 
 Kullanıcılar belirli bir sürümü kurabilir:
 ```bash
-/plugin install SAHIBI/REPO-ADI@v1.0.0
+/plugin install MECoban/digiens-claude-paketi@v1.0.0
 ```
 
 ## Başarıyı Ölç

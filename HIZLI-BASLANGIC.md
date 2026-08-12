@@ -1,6 +1,6 @@
 # Hızlı Başlangıç: Paketi 5 Dakikada Yayınla
 
-> Not: `SAHIBI/REPO-ADI` ifadesi bir yer tutucudur — yayınlarken kendi GitHub kullanıcı adın ve repo adınla doldur.
+> Not: `MECoban/digiens-claude-paketi` ifadesi bir yer tutucudur — yayınlarken kendi GitHub kullanıcı adın ve repo adınla doldur.
 
 ## Kısa Özet
 
@@ -11,11 +11,11 @@
 
 # 2. Kodu gönder
 cd ~/Projects/REPO-ADI
-git remote add origin https://github.com/SAHIBI/REPO-ADI.git
+git remote add origin https://github.com/MECoban/digiens-claude-paketi.git
 git push -u origin main
 
 # 3. Başkalarıyla paylaş — kurulum komutları:
-# /plugin marketplace add SAHIBI/REPO-ADI
+# /plugin marketplace add MECoban/digiens-claude-paketi
 # /plugin install REPO-ADI
 ```
 
@@ -41,14 +41,14 @@ Yerel çalışma kopyası: `~/Projects/REPO-ADI/`
 1. **YAYINLAMA.md'yi oku** — adım adım tam rehber
 2. **GitHub reposunu aç** — https://github.com/new
 3. **Kodu push'la** — yukarıdaki komutlarla
-4. **Kurulumu dene** — `/plugin install SAHIBI/REPO-ADI`
+4. **Kurulumu dene** — `/plugin install MECoban/digiens-claude-paketi`
 5. **Duyur** — sosyal medyada paylaş, marketplace'lere gönder
 
 ## Kullanıcılar Nasıl Kuracak?
 
 ```bash
 # Adım 1: Marketplace'i ekle
-/plugin marketplace add SAHIBI/REPO-ADI
+/plugin marketplace add MECoban/digiens-claude-paketi
 
 # Adım 2: Paketi kur
 /plugin install REPO-ADI
@@ -56,7 +56,7 @@ Yerel çalışma kopyası: `~/Projects/REPO-ADI/`
 
 ## Yayın Sonrası Paket Adresi
 
-https://github.com/SAHIBI/REPO-ADI
+https://github.com/MECoban/digiens-claude-paketi
 
 ## Takıldığın Yerde
 

@@ -5,8 +5,8 @@
 ## Hızlı kurulum
 
 ```bash
-# 1. Marketi ekle  (⚠️ SAHIBI-DOLDUR kısmı yayınlanınca gerçek GitHub adresiyle değişecek)
-/plugin marketplace add SAHIBI-DOLDUR/digiens-claude-paketi
+# 1. Marketi ekle
+/plugin marketplace add MECoban/digiens-claude-paketi
 
 # 2. Paketi kur
 /plugin install digiens-claude-paketi
