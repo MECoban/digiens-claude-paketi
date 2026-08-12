@@ -5,7 +5,7 @@
 ## Hızlı kurulum
 
 ```bash
-# 1. Marketi ekle
+# 1. Marketi ekle  (⚠️ SAHIBI-DOLDUR kısmı yayınlanınca gerçek GitHub adresiyle değişecek)
 /plugin marketplace add SAHIBI-DOLDUR/digiens-claude-paketi
 
 # 2. Paketi kur
@@ -22,7 +22,7 @@ Detaylı adımlar için: [HIZLI-BASLANGIC.md](HIZLI-BASLANGIC.md)
 | `/7-disli-rontgen` | İşletmenin 7 dişlisini (pazarlama, satış, operasyon, ürün, yönetim, finans, İK) tarar; en çok para kaçıran dişliyi teşhis eder |
 | `/kacan-musteri` | Cevapsız kalan müşterileri bulur, tablolar, onayına sunulacak takip taslakları hazırlar — **asla kendisi göndermez** |
 | `/sabah-brifingi` | Günün programı + cevap bekleyenler + günün 3 önceliği, tek sayfada |
-| `/teklif-hazirla` | İşletme bilgin ve şablonunla dakikada markalı teklif taslağı |
+| `/teklif-hazirla` | İşletme bilgin ve şablonunla dakikada tutarlı teklif TASLAĞI (metin; tasarımlı PDF değil) |
 | `/hafizaya-isle` | Oturumdaki düzeltmelerini kalıcılaştırır — dijital çalışanın seninle birlikte ustalaşır |
 
 ### 🤖 Uzman Ajanlar (12)
@@ -39,7 +39,7 @@ API: `/yeni-api` · `/api-test` · `/api-koru` — UI: `/yeni-component` · `/ye
 - **Context7** — güncel dokümantasyon: prompt'una `use context7` yaz, Claude en güncel bilgiyle çalışsın
 - **Playwright** — tarayıcı otomasyonu (dönüşüm denetçisinin gözü)
 
-Detaylar: [MCP-SUNUCULARI.md](MCP-SUNUCULARI.md)
+Detaylar: [MCP-SUNUCULARI.md](MCP-SUNUCULARI.md) — ⚠️ Bu sunucular kurulmadan ilgili özellikler (güncel doküman çekme, tarayıcı denetimi) çalışmaz; kurulum adımları dosyada.
 
 ## Nasıl başlamalı? (önerilen sıra)
 
@@ -51,7 +51,7 @@ Detaylar: [MCP-SUNUCULARI.md](MCP-SUNUCULARI.md)
 
 ## Önerilen ekler
 
-- **[claude-mem](https://github.com/thedotmack/claude-mem)** — oturumlar arası süper hafıza (⭐90K+, [Türkçe README](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.tr.md) mevcut). Hafıza özelliğini bir üst seviyeye taşımak isteyenlere.
+- **[claude-mem](https://github.com/thedotmack/claude-mem)** — oturumlar arası süper hafıza (çok popüler topluluk eklentisi, [Türkçe README](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.tr.md) mevcut). Hafıza özelliğini bir üst seviyeye taşımak isteyenlere.
 - **[Anthropic Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)** — resmî örnek ve desen kütüphanesi (MIT). Derinleşmek isteyenlere.
 
 ## Teşekkür ve kaynak
