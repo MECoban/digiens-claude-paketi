@@ -1,0 +1,20 @@
+{
+  "name": "digiens-claude-paketi",
+  "owner": {
+    "name": "Digiens AI",
+    "contact": "github.com/SAHIBI-DOLDUR"
+  },
+  "description": "Digiens AI'nin Türkçe Claude Code kurulum paketi — işletmeler ve girişimciler için",
+  "plugins": [
+    {
+      "name": "digiens-claude-paketi",
+      "source": "./",
+      "description": "5 işletme komutu (kaçan müşteri, sabah brifingi, teklif, 7 dişli röntgeni, hafızaya işle) + 14 geliştirme komutu + 12 uzman ajan — Türkçe",
+      "version": "1.0.0",
+      "author": {
+        "name": "Digiens AI"
+      },
+      "tags": ["turkce", "isletme", "girisimci", "verimlilik", "otomasyon"]
+    }
+  ]
+}

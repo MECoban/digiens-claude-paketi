@@ -1,0 +1,55 @@
+{
+  "name": "digiens-claude-paketi",
+  "version": "1.0.0",
+  "description": "Digiens AI'nin Türkçe Claude Code paketi: işletmeler için 5 işletme komutu + 14 geliştirme komutu + 12 uzman ajan. Girişimciler ve işletme sahipleri için tasarlandı.",
+  "author": "Digiens AI",
+  "license": "MIT",
+  "commands": [
+    { "name": "kacan-musteri", "path": ".claude/commands/isletme/kacan-musteri.md", "description": "Cevapsız müşterileri bul, raporla, onaylı takip taslakları hazırla" },
+    { "name": "sabah-brifingi", "path": ".claude/commands/isletme/sabah-brifingi.md", "description": "Günün programı + cevap bekleyenler + 3 öncelik, tek sayfada" },
+    { "name": "teklif-hazirla", "path": ".claude/commands/isletme/teklif-hazirla.md", "description": "İşletme bilgisi ve şablonla dakikada markalı teklif taslağı" },
+    { "name": "7-disli-rontgen", "path": ".claude/commands/isletme/7-disli-rontgen.md", "description": "İşletmenin 7 dişlisini tara, en çok para kaçıran dişliyi teşhis et" },
+    { "name": "hafizaya-isle", "path": ".claude/commands/isletme/hafizaya-isle.md", "description": "Oturumdaki düzeltme ve tercihleri CLAUDE.md'ye/hafızaya kalıcılaştır" },
+    { "name": "yeni-gorev", "path": ".claude/commands/gelistirme/yeni-gorev.md", "description": "Kodu performans sorunları için analiz et ve iyileştirme öner" },
+    { "name": "kod-acikla", "path": ".claude/commands/gelistirme/kod-acikla.md", "description": "Kod için anlaşılır, detaylı açıklama üret" },
+    { "name": "kod-hizlandir", "path": ".claude/commands/gelistirme/kod-hizlandir.md", "description": "Kodu performans için optimize et" },
+    { "name": "kod-temizle", "path": ".claude/commands/gelistirme/kod-temizle.md", "description": "Kodu temizle ve sadeleştir" },
+    { "name": "ozellik-plani", "path": ".claude/commands/gelistirme/ozellik-plani.md", "description": "Yeni özellik için uygulama planı çıkar" },
+    { "name": "lint-duzelt", "path": ".claude/commands/gelistirme/lint-duzelt.md", "description": "Lint çalıştır ve sorunları düzelt" },
+    { "name": "dokuman-uret", "path": ".claude/commands/gelistirme/dokuman-uret.md", "description": "Proje dokümantasyonu üret" },
+    { "name": "yeni-api", "path": ".claude/commands/api/yeni-api.md", "description": "Yeni API endpoint'i oluştur" },
+    { "name": "api-test", "path": ".claude/commands/api/api-test.md", "description": "API endpoint'lerini test et" },
+    { "name": "api-koru", "path": ".claude/commands/api/api-koru.md", "description": "API'ye koruma ve doğrulama ekle" },
+    { "name": "yeni-component", "path": ".claude/commands/ui/yeni-component.md", "description": "Yeni React component'i oluştur" },
+    { "name": "yeni-sayfa", "path": ".claude/commands/ui/yeni-sayfa.md", "description": "Yeni Next.js sayfası oluştur" },
+    { "name": "tip-uret", "path": ".claude/commands/supabase/tip-uret.md", "description": "Supabase TypeScript tiplerini üret" },
+    { "name": "yeni-edge-function", "path": ".claude/commands/supabase/yeni-edge-function.md", "description": "Yeni Supabase Edge Function oluştur" }
+  ],
+  "agents": [
+    { "name": "donusum-denetcisi", "path": ".claude/agents/donusum-denetcisi.md", "description": "Siteyi müşteri gözüyle denetler, işletme diliyle dönüşüm teşhisi koyar" },
+    { "name": "sistem-mimari", "path": ".claude/agents/sistem-mimari.md", "description": "Ölçeklenebilir sistem mimarisi tasarlar" },
+    { "name": "backend-mimari", "path": ".claude/agents/backend-mimari.md", "description": "Veri bütünlüğü ve güvenlik odaklı backend tasarımı" },
+    { "name": "frontend-mimari", "path": ".claude/agents/frontend-mimari.md", "description": "Erişilebilir ve hızlı arayüz mimarisi" },
+    { "name": "performans-uzmani", "path": ".claude/agents/performans-uzmani.md", "description": "Ölçüme dayalı performans iyileştirme" },
+    { "name": "guvenlik-uzmani", "path": ".claude/agents/guvenlik-uzmani.md", "description": "Güvenlik açıklarını bulur, standartlara uyumu denetler" },
+    { "name": "kod-sadelestirici", "path": ".claude/agents/kod-sadelestirici.md", "description": "Sistematik refactoring ile kod kalitesini yükseltir" },
+    { "name": "gereksinim-analisti", "path": ".claude/agents/gereksinim-analisti.md", "description": "Belirsiz fikirleri net gereksinimlere çevirir" },
+    { "name": "teknik-yazar", "path": ".claude/agents/teknik-yazar.md", "description": "Hedef kitleye uygun, net teknik dokümantasyon yazar" },
+    { "name": "ogrenme-rehberi", "path": ".claude/agents/ogrenme-rehberi.md", "description": "Kavramları kademeli ve anlaşılır şekilde öğretir" },
+    { "name": "derin-arastirmaci", "path": ".claude/agents/derin-arastirmaci.md", "description": "Kapsamlı, uyarlanabilir stratejili derin araştırma yapar" },
+    { "name": "teknoloji-secici", "path": ".claude/agents/teknoloji-secici.md", "description": "Teknoloji seçimlerini artı-eksileriyle önerir" }
+  ],
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "description": "Kütüphane ve araçların GÜNCEL dokümantasyonuna erişim — prompt'a 'use context7' yaz, yeter"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "description": "Tarayıcı otomasyonu — donusum-denetcisi ajanının siteyi canlı incelemesi için"
+    }
+  },
+  "tags": ["turkce", "isletme", "girisimci", "verimlilik", "digiens", "otomasyon", "nextjs", "supabase"]
+}
